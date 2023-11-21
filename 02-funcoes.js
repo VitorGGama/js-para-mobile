@@ -39,3 +39,21 @@ let resultado2 = calcularDiferenca(20, 10);
 /*3) Mostre os valores processados pela função no terminal.*/
 console.log("Resultado 1:", resultado1);
 console.log("Resultado 2:", resultado2);
+
+/* Sintaxe Arrow Function */
+const exemplo3 = () => {
+    console.log("Arrow Function!");
+};
+
+exemplo3();
+
+// const saudacao = (cliente) =>{
+//    console.log("Olá " + cliente);
+// };
+
+//Omitir os paratenses do parametro (Somente quando for 1)
+const saudacao = cliente => {
+    console.log("Olá "+ cliente);
+}
+saudacao("Fulano");
+saudacao("Beltrano");
