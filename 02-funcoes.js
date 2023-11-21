@@ -74,3 +74,28 @@ let resultadoB = calculaMetade(600);
 
 console.log(resultadoA);
 console.log(resultadoB);
+
+console.log("-----------------");
+
+/* exercicios 
+1- Monte um arrow function que receba um nome de uma pessoa
+e converta este nome para letras maiusculas.
+
+2- Chame a função 3x (passando nomes diferentes) e exibindo
+no console os resultados. */
+
+const nomePessoa = (nome) => nome.toUpperCase();
+
+let resultadoNome1 = nomePessoa("vitor");
+let resultadoNome2 = nomePessoa("Aline");
+let resultadoNome3 = nomePessoa("Jota");
+
+console.log(resultadoNome1);
+console.log(resultadoNome2);
+console.log(resultadoNome3)
+
+
+
+
+
+
