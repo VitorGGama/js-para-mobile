@@ -52,8 +52,21 @@ exemplo3();
 // };
 
 //Omitir os paratenses do parametro (Somente quando for 1)
-const saudacao = cliente => {
-    console.log("Olá "+ cliente);
-}
+// const saudacao = cliente => {
+//    console.log("Olá "+ cliente);
+// }
+
+//Omitir as { } (Somente quando for uma única instrução)
+const saudacao = cliente => console.log("olá "+cliente);
 saudacao("Fulano");
 saudacao("Beltrano");
+
+const calculaMetade = (valor) => {
+    return valor / 2;
+};
+
+let resultadoA = calculaMetade(100);
+let resultadoB = calculaMetade(600);
+
+console.log(resultadoA);
+console.log(resultadoB);
