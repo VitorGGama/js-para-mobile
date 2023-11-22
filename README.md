@@ -16,3 +16,19 @@
 
  `const` obrigatoriamente precisa ser inicializada com algum valor/expressão, 
  e este valor/expressão **nao pode ser modificado**. 
+
+ ### Funções 
+
+ Blocos de código reaprovetaveis que podem ser criadas de pelo 
+ menos 3 formas:
+
+ -Função nomeada/declarada
+ -Função anônima
+ -Arrow Function
+
+ Nas bibliotecas e frameworks as sintaxes mais comuns são 
+ Arrow Fuction e nomeada.
+  
+
+**Obs.:** Caso utilize as sintaxes anônimas ou arrow, 
+certifique-se de **primeiro** declarar a função só depois chama-la.  
