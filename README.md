@@ -32,3 +32,10 @@
 
 **Obs.:** Caso utilize as sintaxes anônimas ou arrow, 
 certifique-se de **primeiro** declarar a função só depois chama-la.  
+
+### Template Literal/String
+
+Forma mais moderna de manipular dados estáticos e dinamicos, além
+de permitir de uma forma mais fácil executar operações dentro de strings/códigos.
+lembre-se do uso das **crases** e do bloco '${}' para execuções de código dinâmico
+(variáveis, constantes e funções, etc).
