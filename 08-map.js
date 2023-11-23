@@ -29,3 +29,20 @@ console.log ("------------------------");
 
 const precos = cursos.map ( curso => curso.preco - curso.preco * 0.10 );
 console.log(precos);
+
+console.log("----------------------")
+
+const precoDesconto = cursos.map ( curso => {
+    let id = curso.id
+    let titulo = curso.titulo
+    let categoria = curso.categoria;
+    let preco = curso.preco - curso.preco * 0.10
+    return {
+        id:id, titulo:titulo, categoria:categoria, preco:preco
+    }
+}
+    );    
+
+
+console.log(precoDesconto);
+
