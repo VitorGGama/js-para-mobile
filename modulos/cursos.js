@@ -31,7 +31,7 @@ const cursos = [
         titulo: "PHP e MYSQL",
         categoria: "Back-End",
         preco: 600
-    }
+    },
     {
         id: 6,
         titulo: "Flutter",
