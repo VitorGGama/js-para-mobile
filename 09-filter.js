@@ -46,10 +46,14 @@ console.log(cursoDesign);
 const cursosMenosDesign = cursos.filter(curso => curso.categoria != "Desugn");
 console.log(cursosMenosDesign);
 
-console.log("Exercicios");
+console.log("Exercicios1");
 
 const cursoFrontAcima600 = cursos.filter(curso => curso.preco > 600 && curso.categoria == "Front-End" || curso.categoria == "Mobile");
 console.log(cursoFrontAcima600);
 
+console.log("Exercicios2");
+
+const mobile = cursos.filter(curso => curso.categoria == "Mobile" ).map(curso => curso.titulo);
+console.log(mobile);
 
 
