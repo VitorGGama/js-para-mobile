@@ -32,6 +32,8 @@ console.log(precos);
 
 console.log("----------------------")
 
+
+//Desafio da minha maneira
 const precoDesconto = cursos.map ( curso => {
     let id = curso.id
     let titulo = curso.titulo
@@ -42,7 +44,22 @@ const precoDesconto = cursos.map ( curso => {
     }
 }
     );    
-
-
 console.log(precoDesconto);
 
+
+console.log("-------------------")
+
+/* DESAFIO! Versão do Professor
+Gere um novo array de cursos contendo todos os dados anteriores e os preços novos com desconto. */
+const cursosBlackFriday = cursos.map( curso => {
+    return { ...curso, preco: curso.preco - curso.preco * 0.10 }
+} );
+console.log(cursosBlackFriday);
+
+/* Simplificar a arrow function: é necessário
+envolver o código de return implícito com parênteses. */
+const cursosBlackFriday2 = cursos.map( curso => 
+    ({ ...curso, preco: curso.preco - curso.preco * 0.10 })
+);
+
+console.log(cursosBlackFriday2);
